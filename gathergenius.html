@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to GatherGenius </h1>
+    <!-- Filter Button -->
+    <button id="filter-button">Filters</button>
+
+    <!-- Filter Form -->
+    <form id="filter-form" class="hidden">
+        <label for="keyword">Keyword:</label>
+        <input type="text" id="keyword" name="keyword">
+
+        <label for="minPrice">Minimum Price:</label>
+        <input type="number" id="minPrice" name="minPrice" step="0.01" min="0">
+
+        <label for="maxPrice">Maximum Price:</label>
+        <input type="number" id="maxPrice" name="maxPrice" step="0.01" min="0">
+
+        <label for="minTeamSize">Minimum Team Size:</label>
+        <input type="number" id="minTeamSize" name="minTeamSize" min="1">
+
+        <label for="maxTeamSize">Maximum Team Size:</label>
+        <input type="number" id="maxTeamSize" name="maxTeamSize" min="1">
+
+        <label for="certification">Certification Required:</label>
+        <input type="checkbox" id="certification" name="certification">
+
+        <input type="submit" value="Apply Filters">
+    </form>
+
+    <!-- Events Container -->
+    <div id="events-container"></div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>

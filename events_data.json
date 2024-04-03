@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Tech Expo 2024",
+    "date": "2024-05-10",
+    "location": "New York City, NY",
+    "description": "An exhibition showcasing the latest technology innovations.",
+    "ticket_price": 10,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "tech"
+  },
+  {
+    "name": "HackathonX",
+    "date": "2024-06-15",
+    "location": "San Francisco, CA",
+    "description": "A competitive hackathon event bringing together developers to build innovative solutions.",
+    "ticket_price": 20,
+    "team_size": 4,
+    "certification_required": false,
+    "type": "hackathon"
+  },
+  {
+    "name": "Developer Conference 2024",
+    "date": "2024-07-20",
+    "location": "Seattle, WA",
+    "description": "A conference for developers featuring workshops, talks, and networking opportunities.",
+    "ticket_price": 50,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "dev"
+  },
+  {
+    "name": "Career Fair Expo",
+    "date": "2024-08-10",
+    "location": "Chicago, IL",
+    "description": "A career fair event connecting job seekers with tech companies.",
+    "ticket_price": 0,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "career fair"
+  },
+  {
+    "name": "TechJob Summit 2024",
+    "date": "2024-09-05",
+    "location": "Austin, TX",
+    "description": "A summit focusing on tech job opportunities, recruitment, and industry insights.",
+    "ticket_price": 25,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "job fair"
+  },
+  {
+    "name": "Tech Expo 2024",
+    "date": "2024-05-10",
+    "location": "New York City, NY",
+    "description": "An exhibition showcasing the latest technology innovations.",
+    "ticket_price": 10,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "tech"
+  },
+  {
+    "name": "HackathonX",
+    "date": "2024-06-15",
+    "location": "San Francisco, CA",
+    "description": "A competitive hackathon event bringing together developers to build innovative solutions.",
+    "ticket_price": 20,
+    "team_size": 4,
+    "certification_required": false,
+    "type": "hackathon"
+  },
+  {
+    "name": "Developer Conference 2024",
+    "date": "2024-07-20",
+    "location": "Seattle, WA",
+    "description": "A conference for developers featuring workshops, talks, and networking opportunities.",
+    "ticket_price": 50,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "dev"
+  },
+  {
+    "name": "Career Fair Expo",
+    "date": "2024-08-10",
+    "location": "Chicago, IL",
+    "description": "A career fair event connecting job seekers with tech companies.",
+    "ticket_price": 0,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "career fair"
+  },
+  {
+    "name": "TechJob Summit 2024",
+    "date": "2024-09-05",
+    "location": "Austin, TX",
+    "description": "A summit focusing on tech job opportunities, recruitment, and industry insights.",
+    "ticket_price": 25,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "job fair"
+  },
+  {
+    "name": "Coding Bootcamp",
+    "date": "2024-10-15",
+    "location": "Boston, MA",
+    "description": "An intensive coding bootcamp program for aspiring developers.",
+    "ticket_price": 2000,
+    "team_size": 0,
+    "certification_required": true,
+    "type": "dev"
+  },
+  {
+    "name": "Tech Startup Pitch Night",
+    "date": "2024-11-20",
+    "location": "Los Angeles, CA",
+    "description": "An event where tech startups pitch their ideas to investors and industry experts.",
+    "ticket_price": 15,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "tech"
+  },
+  {
+    "name": "Software Engineering Symposium",
+    "date": "2024-12-10",
+    "location": "Washington, D.C.",
+    "description": "A symposium focused on software engineering trends and best practices.",
+    "ticket_price": 30,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "dev"
+  },
+  {
+    "name": "Data Science Workshop",
+    "date": "2025-01-15",
+    "location": "Denver, CO",
+    "description": "A hands-on workshop covering data science concepts and techniques.",
+    "ticket_price": 50,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "tech"
+  },
+  {
+    "name": "STEM Career Fair",
+    "date": "2025-02-20",
+    "location": "Houston, TX",
+    "description": "A career fair event focusing on STEM (Science, Technology, Engineering, Mathematics) fields.",
+    "ticket_price": 0,
+    "team_size": 0,
+    "certification_required": false,
+    "type": "career fair"
+  }
+]
+

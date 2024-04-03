@@ -1,0 +1,132 @@
+/* style.css */
+
+/* styles.css */
+
+/* Hide filter form by default */
+.hidden {
+    display: none;
+
+}
+/* Header Styles */
+.site-header {
+    background-color: rgba(255, 255, 255, 0.363); /* Set translucent white background color */
+    padding: 15px; /* Add padding to provide space around the logo */
+    text-align: center; /* Center align the logo */
+}
+
+.logo {
+    max-width: 300px; /* Set maximum width for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logo-link {
+    display: inline-block; /* Ensure the logo is inline with other content */
+    text-decoration: none; /* Remove underline from the logo link */
+    color: inherit; /* Inherit text color from parent */
+}
+
+/* Search Section Styles */
+.search-section {
+    text-align: center; /* Center align the search section */
+    margin-top: 20px; /* Add margin to separate from the header */
+}
+
+.search-container {
+    display: inline-block; /* Ensure the search container is inline with other content */
+    text-align: center; /* Center align the search container */
+}
+
+/* Position the button */
+#filter-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #73bac8bc;
+    
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#filter-button:hover {
+    background-color: #73bac8bc;
+
+}
+
+body {
+    /* Add background image */
+    background-image: url('background.jpg');
+    /* Set background size */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    /* Ensure the background image covers the entire viewport */
+    height: 100vh;
+    /* Remove default margin */
+    margin: 0;
+    /* Set background color as fallback */
+    background-color: #f9f9f9#000000;
+    
+}
+
+/* Style for the welcome message */
+.welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2rem;
+    /* Add text shadow for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Set text color to white for better readability */
+    color: #fff;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #73bac8bc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #73bac8bc;
+    
+}
