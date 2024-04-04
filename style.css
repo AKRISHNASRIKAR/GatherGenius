@@ -9,32 +9,91 @@
 }
 /* Header Styles */
 .site-header {
-    background-color: rgba(255, 255, 255, 0.363); /* Set translucent white background color */
-    padding: 15px; /* Add padding to provide space around the logo */
+    background-color: rgba(0, 0, 0, 0.334); /* Set translucent white background color */
+    padding: 30px; /* Add padding to provide space around the logo */
     text-align: center; /* Center align the logo */
 }
 
-.logo {
-    max-width: 300px; /* Set maximum width for the logo */
+/* Logo Styles */
+.logo img {
+    max-width: 300px;
     height: auto; /* Maintain aspect ratio */
 }
 
-.logo-link {
-    display: inline-block; /* Ensure the logo is inline with other content */
-    text-decoration: none; /* Remove underline from the logo link */
-    color: inherit; /* Inherit text color from parent */
+/* Search Events Button Styles */
+.search-events-button a {
+    text-decoration: none;
+    text-align: center; 
+    color: #ffffff;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-/* Search Section Styles */
-.search-section {
-    text-align: center; /* Center align the search section */
-    margin-top: 20px; /* Add margin to separate from the header */
+.search-events-button a:hover {
+    background-color: #eee;
 }
 
-.search-container {
-    display: inline-block; /* Ensure the search container is inline with other content */
-    text-align: center; /* Center align the search container */
+/* Login Box Section Styles */
+.login-section {
+    display: flex;
+    justify-content: right;
+    align-items: justify;
+    height: calc(50vh - 110px); /* Adjust the height to make space for the header */
+    background-color: rgba(255, 255, 255, 0.049); /* Translucent background */
+    padding: 10px;
 }
+
+/* Login Box Styles */
+.login-box {
+    background-color: #ffffff59;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    width: 300px; /* Adjust the width as needed */
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"],
+.login-box button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 101%;
+}
+
+.login-box button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Other Styles (similar to previous examples) */
+/* Add your other CSS styles here */
+
+
+/* Other Styles (similar to previous examples) */
+/* Add your other CSS styles here */
+
+
+/* Welcome Message Section Styles */
+.welcome-section {
+    padding: 20px;
+}
+
+.welcome-message h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Other Styles (similar to previous examples) */
+/* Add your other CSS styles here */
+
+
+/* Other Styles (similar to previous examples) */
+/* Add your other CSS styles here */
+
 
 /* Position the button */
 #filter-button {
