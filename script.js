@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
+    const applyFiltersButton = document.getElementById("apply-filters-button");
     const filterButton = document.getElementById("filter-button");
     const filterForm = document.getElementById("filter-form");
-    const applyFiltersButton = document.getElementById("apply-filters-button");
+    
 
     filterButton.addEventListener("click", function() {
         filterForm.classList.toggle("hidden");
