@@ -1,0 +1,7 @@
+body{
+    background: linear-gradient(to right, #003366 0%, #000000 100%);
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 36px; /* Adjust the font size as needed */
+}
