@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const filterButton = document.getElementById("filter-button");
     const filterForm = document.getElementById("filter-form");
     
-
     filterButton.addEventListener("click", function() {
         filterForm.classList.toggle("hidden");
     });
@@ -37,17 +36,25 @@ document.addEventListener("DOMContentLoaded", function() {
             })
             .catch(error => console.error("Error fetching events data:", error));
     }
-
     function displayEvents(events) {
         const eventsContainer = document.getElementById("events-container");
         eventsContainer.innerHTML = "";
-
+    
         events.forEach(event => {
             const eventDiv = document.createElement("div");
             eventDiv.classList.add("event");
-
-            eventDiv.innerHTML = `
-                <h3>${event.name}</h3>
+    
+            // Event Title (Clickable)
+            const eventTitle = document.createElement("h3");
+            eventTitle.textContent = event.name;
+            eventTitle.style.cursor = "pointer"; // Change cursor to pointer
+            eventTitle.addEventListener("click", function() {
+                window.location.href = "booking.html"; // Redirect to booking.html
+            });
+            eventDiv.appendChild(eventTitle);
+    
+            // Other Event Details
+            eventDiv.innerHTML += `
                 <p>Date: ${event.date}</p>
                 <p>Location: ${event.location}</p>
                 <p>Description: ${event.description}</p>
@@ -55,10 +62,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p>Team Size: ${event.team_size}</p>
                 <p>Certification Required: ${event.certification_required ? "Yes" : "No"}</p>
             `;
-
+    
+            // Book Button
+            const bookButton = document.createElement("button");
+            bookButton.textContent = "Book";
+            bookButton.classList.add("book-button");
+            bookButton.addEventListener("click", function() {
+                window.location.href = "booking.html"; // Redirect to booking.html
+            });
+            eventDiv.appendChild(bookButton);
+    
             eventsContainer.appendChild(eventDiv);
         });
     }
-
+    
     filterEvents(); // Initially fetch and display all events
 });
+
+
