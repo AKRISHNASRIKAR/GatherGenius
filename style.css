@@ -1,5 +1,6 @@
 /* style.css */
 
+/* styles.css */
 
 /* Hide filter form by default */
 .hidden {
@@ -9,14 +10,14 @@
 /* Header Styles */
 .site-header {
     background-color: rgba(0, 0, 0, 0.334); /* Set translucent white background color */
-    padding: 30px; 
-    text-align: center; 
+    padding: 30px; /* Add padding to provide space around the logo */
+    text-align: center; /* Center align the logo */
 }
 
 /* Logo Styles */
 .logo img {
     max-width: 300px;
-    height: auto; 
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Search Events Button Styles */
@@ -38,7 +39,7 @@
     display: flex;
     justify-content: right;
     align-items: justify;
-    height: calc(50vh - 110px); 
+    height: calc(50vh - 110px); /* Adjust the height to make space for the header */
     background-color: rgba(255, 255, 255, 0.049); /* Translucent background */
     padding: 10px;
 }
@@ -50,7 +51,7 @@
     border-radius: 5px;
     padding: 18px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
-    width: 300px; 
+    width: 300px; /* Adjust the width as needed */
 }
 
 .login-box input[type="email"],
@@ -68,7 +69,12 @@
     cursor: pointer;
 }
 
+/* Other Styles (similar to previous examples) */
+/* Add your other CSS styles here */
 
+
+/* Other Styles (similar to previous examples) */
+/* Add your other CSS styles here */
 
 
 /* Welcome Message Section Styles */
@@ -81,6 +87,12 @@
     margin-bottom: 20px;
 }
 
+/* Other Styles (similar to previous examples) */
+/* Add your other CSS styles here */
+
+
+/* Other Styles (similar to previous examples) */
+/* Add your other CSS styles here */
 
 
 /* Position the button */
@@ -103,17 +115,17 @@
 }
 
 body {
-    
+    /* Add background image */
     background-image: url('background.jpg');
-
+    /* Set background size */
     background-size: cover;
-   
+    /* Center the background image */
     background-position: center;
-  
+    /* Ensure the background image covers the entire viewport */
     height: 100vh;
-   
+    /* Remove default margin */
     margin: 0;
-
+    /* Set background color as fallback */
     background-color: #f9f9f9#000000;
     
 }
@@ -126,9 +138,9 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 2rem;
-  
+    /* Add text shadow for better visibility */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
+    /* Set text color to white for better readability */
     color: #fff;
 }
 
@@ -177,3 +189,21 @@ input[type="submit"]:hover {
     background-color: #73bac8bc;
     
 }
+.event {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .event h3 {
+    margin-top: 0;
+  }
+  
+  /* Limit to display only four events */
+  .event:nth-child(n+5) {
+    display: none;
+  }
+  
